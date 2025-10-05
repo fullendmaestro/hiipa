@@ -2,8 +2,9 @@
 
 import Image from 'next/image'
 import { Button } from '@hiipa/ui/components/button'
+import { ReactElement } from 'react'
 
-export default function HeroSection() {
+export default function HeroSection(): ReactElement {
   const scrollToDownload = () => {
     const downloadSection = document.getElementById('download')
     if (downloadSection) {

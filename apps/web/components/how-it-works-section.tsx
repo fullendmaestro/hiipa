@@ -1,6 +1,7 @@
 import { Card } from '@hiipa/ui/components/card'
+import { ReactElement } from 'react'
 
-export default function HowItWorksSection() {
+export default function HowItWorksSection(): ReactElement {
   const steps = [
     {
       step: '01',

@@ -3,8 +3,9 @@
 import useScroll from '@/hooks/use-scroll'
 import Image from 'next/image'
 import { Button } from '@hiipa/ui/components/button'
+import { ReactElement } from 'react'
 
-export default function Navbar() {
+export default function Navbar(): ReactElement {
   const scrolled = useScroll(50)
 
   const scrollToDownload = () => {

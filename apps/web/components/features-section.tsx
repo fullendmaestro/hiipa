@@ -1,6 +1,7 @@
 import { Card } from '@hiipa/ui/components/card'
+import { ReactElement } from 'react'
 
-export default function FeaturesSection() {
+export default function FeaturesSection(): ReactElement {
   const features = [
     {
       title: 'Automated Yield Optimization',
