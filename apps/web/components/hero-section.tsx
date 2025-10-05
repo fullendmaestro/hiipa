@@ -12,7 +12,7 @@ export default function HeroSection() {
   }
 
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100 pt-16">
+    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-primary/10 to-primary/20 pt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <div className="flex items-center justify-center gap-4 mb-8">
@@ -24,14 +24,14 @@ export default function HeroSection() {
               priority
               className="w-20 h-20"
             />
-            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-gray-900">Hiipa</h1>
+            <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground">Hiipa</h1>
           </div>
 
-          <h2 className="text-xl sm:text-2xl lg:text-3xl text-gray-600 mb-8 max-w-4xl mx-auto">
+          <h2 className="text-xl sm:text-2xl lg:text-3xl text-muted-foreground mb-8 max-w-4xl mx-auto">
             Complete AI Agent for Aptos DeFi
           </h2>
 
-          <p className="text-lg sm:text-xl text-gray-700 mb-12 max-w-3xl mx-auto leading-relaxed">
+          <p className="text-lg sm:text-xl text-foreground/80 mb-12 max-w-3xl mx-auto leading-relaxed">
             Automated yield rebalancing agent specifically optimized for DeFi workflows on the Aptos
             blockchain. Install our Chrome extension and optional LangGraph-based AI agent to
             maximize your returns.
@@ -41,7 +41,7 @@ export default function HeroSection() {
             <Button
               size="lg"
               onClick={scrollToDownload}
-              className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-3 text-lg"
+              className="bg-primary hover:bg-primary/90 text-primary-foreground px-8 py-3 text-lg"
             >
               Get Started Now
             </Button>

@@ -5,7 +5,9 @@ import HowItWorksSection from '@/components/how-it-works-section'
 import DownloadSection from '@/components/download-section'
 import Footer from '@/components/footer'
 
-export default function Page() {
+import type { ReactElement } from 'react'
+
+export default function Page(): ReactElement {
   return (
     <div className="min-h-screen">
       <Navbar />
