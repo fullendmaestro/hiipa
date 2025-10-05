@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono } from "next/font/google"
 
-import "@workspace/ui/globals.css"
+import "@hiipa/ui/globals.css"
 import { Providers } from "@/components/providers"
 
 const fontSans = Geist({
@@ -28,3 +28,4 @@ export default function RootLayout({
     </html>
   )
 }
+

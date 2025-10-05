@@ -1,10 +1,10 @@
 {
-  "extends": "@workspace/typescript-config/nextjs.json",
+  "extends": "@hiipa/typescript-config/nextjs.json",
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
       "@/*": ["./*"],
-      "@workspace/ui/*": ["../../packages/ui/src/*"]
+      "@hiipa/ui/*": ["../../packages/ui/src/*"]
     },
     "plugins": [
       {
@@ -21,3 +21,4 @@
   ],
   "exclude": ["node_modules"]
 }
+
